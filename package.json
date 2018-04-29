@@ -1,12 +1,12 @@
 {
   "name": "jschest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JS tool chhest of utility functions.",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf lib api-docs coverage",
     "build": "npm run clean; babel -q src -d lib",
-    "doc" : "npm run doc:md && npm run doc:html",
+    "doc": "npm run doc:md && npm run doc:html",
     "doc:md": "documentation readme src/index.js --section=API",
     "doc:html": "documentation build src/** -f html -o api-docs",
     "prepublishOnly": "npm test && npm run doc",
@@ -25,6 +25,5 @@
     "jest": "22.4.3",
     "rimraf": "^2.6.2"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
