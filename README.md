@@ -20,3 +20,15 @@ appends fulfillment / rejection handler that returns the return value as "ret" a
 **Parameters**
 
 -   `fn`  Function that is exptected to return a Promise.
+
+**Examples**
+
+```javascript
+const wrappedFn = timeFnPromise(aFunctionThatReturnsAPromise)
+
+wrappedFn()
+.then((values)=>{
+ const {ret, elapsedTime} = values
+ console.log(`ret:[${ret}] elapsedTime:[${elapsedTime}]`)
+})
+```

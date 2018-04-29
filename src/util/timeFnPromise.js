@@ -4,6 +4,15 @@
  *
  * @param fn - Function that is exptected to return a Promise.
  *
+ * @example
+ *
+ * const wrappedFn = timeFnPromise(aFunctionThatReturnsAPromise)
+ *
+ * wrappedFn()
+ * .then((values)=>{
+ *  const {ret, elapsedTime} = values
+ *  console.log(`ret:[${ret}] elapsedTime:[${elapsedTime}]`)
+ * })
  *
  */
 const timeFnPromise = (fn) => (...args) => {
