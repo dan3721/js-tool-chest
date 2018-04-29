@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1525006292287" clover="3.2.0">
+  <project timestamp="1525006292287" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3" elements="13" coveredelements="13" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1">
+      <file name="timeFnPromise.js" path="/Users/dan/devel/tehcentourage/github/js-tool-chest/src/util/timeFnPromise.js">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+      </file>
+    </metrics>
+  </project>
+</coverage>

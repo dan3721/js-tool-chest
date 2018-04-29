@@ -1,0 +1,7 @@
+{
+  "bail": true,
+  "verbose": true,
+  "rootDir": "src",
+  "collectCoverage": true,
+  "coverageDirectory": "../coverage"
+}

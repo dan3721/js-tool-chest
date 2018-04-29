@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <title>tool-chest 1.0.0 | Documentation</title>
+  <meta name='viewport' content='width=device-width,initial-scale=1'>
+  <link href='assets/bass.css' type='text/css' rel='stylesheet' />
+  <link href='assets/style.css' type='text/css' rel='stylesheet' />
+  <link href='assets/github.css' type='text/css' rel='stylesheet' />
+  <link href='assets/split.css' type='text/css' rel='stylesheet' />
+</head>
+<body class='documentation m0'>
+    <div class='flex'>
+      <div id='split-left' class='overflow-auto fs0 height-viewport-100'>
+        <div class='py1 px2'>
+          <h3 class='mb0 no-anchor'>tool-chest</h3>
+          <div class='mb1'><code>1.0.0</code></div>
+          <input
+            placeholder='Filter'
+            id='filter-input'
+            class='col12 block input'
+            type='text' />
+          <div id='toc'>
+            <ul class='list-reset h5 py1-ul'>
+              
+                
+                <li><a
+                  href='#functionthatreturnsapromise'
+                  class="">
+                  functionThatReturnsAPromise
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#wrappedfunctionthatreturnsapromise'
+                  class="">
+                  wrappedFunctionThatReturnsAPromise
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#timefnpromise'
+                  class="">
+                  timeFnPromise
+                  
+                </a>
+                
+                </li>
+              
+            </ul>
+          </div>
+          <div class='mt1 h6 quiet'>
+            <a href='http://documentation.js.org/reading-documentation.html'>Need help reading this?</a>
+          </div>
+        </div>
+      </div>
+      <div id='split-right' class='relative overflow-auto height-viewport-100'>
+        
+          
+            <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='functionthatreturnsapromise'>
+      functionThatReturnsAPromise
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Sample function that returns a Promise that resolves according to the specified delay and success / failure indicator.</p>
+
+
+  <div class='pre p1 fill-light mt0'>functionThatReturnsAPromise</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>delayInMillis</span> <code class='quiet'>(any)</code>
+	    
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>fail</span> <code class='quiet'>(any)</code>
+	    
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+            <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='wrappedfunctionthatreturnsapromise'>
+      wrappedFunctionThatReturnsAPromise
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Wrap a function that returns a promise with timeFnPromise.</p>
+
+
+  <div class='pre p1 fill-light mt0'>wrappedFunctionThatReturnsAPromise</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+            <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='timefnpromise'>
+      timeFnPromise
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Wraps the specified function in an arrow function that times the promise and
+appends fulfillment / rejection handler that returns the return value as "ret" and the elapsed time as "elapsedTime".</p>
+
+
+  <div class='pre p1 fill-light mt0'>timeFnPromise</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>fn</span> <code class='quiet'>(any)</code>
+	    Function that is exptected to return a Promise.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+      </div>
+    </div>
+  <script src='assets/anchor.js'></script>
+  <script src='assets/split.js'></script>
+  <script src='assets/site.js'></script>
+</body>
+</html>
