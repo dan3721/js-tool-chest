@@ -4,11 +4,13 @@
   "description": "JS tool chhest of utility functions.",
   "main": "lib/index.js",
   "scripts": {
-    "clean": "rimraf lib",
-    "build": "babel src -d lib",
-    "doc:md": "documentation build src/** -f md -o API.md",
+    "clean": "rimraf lib api-docs coverage",
+    "build": "npm run clean; babel -q src -d lib",
+    "doc" : "npm run doc:md && npm run doc:html",
+    "doc:md": "documentation readme src/index.js --section=API",
     "doc:html": "documentation build src/** -f html -o api-docs",
-    "test": "jest --config jest.config.json"
+    "prepublishOnly": "npm test && npm run doc",
+    "test": "npm run build && jest --config jest.config.json"
   },
   "keywords": [
     "utilities",
