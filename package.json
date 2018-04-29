@@ -1,7 +1,7 @@
 {
-  "name": "tool-chest",
+  "name": "jschest",
   "version": "1.0.0",
-  "description": "JS tility functions.",
+  "description": "JS tool chhest of utility functions.",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
