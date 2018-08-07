@@ -17,11 +17,16 @@
     "timing",
     "promises"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dan3721/js-tool-chest"
+  },
   "author": "dan.bush@techentourage.com",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-preset-env": "1.6.1",
+    "documentation": "8.1.0",
     "jest": "22.4.3",
     "rimraf": "^2.6.2"
   },
