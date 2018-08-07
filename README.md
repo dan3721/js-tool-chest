@@ -11,17 +11,19 @@ Collection of interesting and useful JS functions.
 ### Table of Contents
 
 -   [timeFnPromise](#timefnpromise)
+    -   [Parameters](#parameters)
+    -   [Examples](#examples)
 
 ## timeFnPromise
 
 Wraps the specified function in an arrow function that times the promise and
 appends fulfillment / rejection handler that returns the return value as "ret" and the elapsed time as "elapsedTime".
 
-**Parameters**
+### Parameters
 
 -   `fn`  Function that is exptected to return a Promise.
 
-**Examples**
+### Examples
 
 ```javascript
 const wrappedFn = timeFnPromise(aFunctionThatReturnsAPromise)
